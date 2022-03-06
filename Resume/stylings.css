@@ -77,7 +77,7 @@ body{
     position: relative;
     padding:30px;
     padding-top:15px;
-    font-size: 25px;
+    font-size: 2.5rem;
     background-image: linear-gradient(to right,#ffffff,#d2b6ff);
     border-radius:0px 50px 50px 0px;
 
@@ -86,18 +86,18 @@ body{
 }
 .name{
     padding:20px;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-style: bold;
     /* background-color:white; */
 }
 .skills{
     
-    font-size:25px;
+    font-size:2.5rem;
     padding-left: 21px;
 }
 .sk{
     
-    font-size:30px;
+    font-size: 3rem;
     padding-top: 20px;
     padding-left: 21px;
     padding-bottom:15px;
@@ -132,7 +132,7 @@ legend{
 .disct{
     width:75%;
     padding-left:21px;
-    font-size: 25px;
+    font-size: 2.5rem;
     
 }
 .pro{
@@ -157,4 +157,10 @@ legend{
     margin: 20px;
     border-color: #0d627d;
 
+}
+
+@media (max-width: 998px){
+    html{
+        font-size:55%;
+    }
 }
